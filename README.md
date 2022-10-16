@@ -12,8 +12,6 @@ Using neural networks for Encryption
 | Haniyya Surayya | Not Decided | |✅ 
 | Kuan-Lun Chiu | Not Decided | | ✅
 | Lalit Chitibomma | Not Decided | chitibom@msu.edu |✅
-| Kuan-Lun Chiu | Not Decided | | ✅
-| Lalit Chitibomma | Not Decided | |✅
 | Lauryn Crandall | Not Decided | cranda98@msu.edu | ✅
 | Nika Ghasemi | Project Lead | ghasemib@msu.edu | ✅
 
