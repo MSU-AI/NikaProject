@@ -20,4 +20,3 @@ Using neural networks for Encryption
 - [Google Drive](https://drive.google.com/drive/folders/15DNhHIobs9S5rOsSpd0B5ZXzChYis3gD)
 
 <sub>Contact my discord to get permission to the resources if needed (ground zero#6286)</sub>
-
