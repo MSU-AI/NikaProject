@@ -5,15 +5,15 @@ Using neural networks for Encryption
 
 ## Members
 
-| Member | Tasks | Email | Active |
-| :---: | :---: | :---: | :---: | 
-| Ajay Kumar | Not Decided | kumaraj2@msu.edu | ✅
-| Anvita Gollu | Not Decided | golluanv@msu.edu |✅
-| Haniyya Surayya | Not Decided | |✅ 
-| Kuan-Lun Chiu | Not Decided | chiukuan@msu.edu | ✅
-| Lalit Chitibomma | Not Decided | chitibom@msu.edu |✅
-| Lauryn Crandall | Not Decided | cranda98@msu.edu | ✅
-| Nika Ghasemi | Project Lead | ghasemib@msu.edu | ✅
+| Member | Tasks | Active |
+| :---: | :---: | :---: |
+| Ajay Kumar | Not Decided | ✅
+| Anvita Gollu | Not Decided |✅
+| Haniyya Surayya | Not Decided |✅ 
+| Kuan-Lun Chiu | Not Decided | ✅
+| Lalit Chitibomma | Not Decided |✅
+| Lauryn Crandall | Not Decided |✅
+| Nika Ghasemi | Project Lead | ✅
 
 ## Extra Resources
 - [Notion](https://www.notion.so/Home-ffac235305664e18870a63512b24d334)
