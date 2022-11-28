@@ -1,0 +1,85 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="{% static 'index/decrypt.css' %}" rel="stylesheet">
+        <script src="{% static 'index/decrypt.js' %}"></script>
+        <title>AI Decrypt- Main</title>
+    </head>
+
+    <body>
+        <div class="greet-container">
+            <div class="greet-content">
+                <p class="greet-content-font">
+                    Please enter your encrypted text here
+                </p>
+
+                <div style="height: 15px;"></div>
+
+                <form method="post" class="form-container cell" id="form-container">
+                    {% csrf_token %}
+                    <div class="cell">
+                        <input type="text" name="encrypted_text" 
+                        placeholder=" sample text" class="input-1">
+                    </div>
+
+                    {% if result %}
+                    <div class="cell">
+                        <button type="submit" class="btn-3" disabled>
+                            
+                        </button>
+                    </div>
+                    {% else %}
+                    <div class="cell">
+                        <button type="submit" class="btn-1" id="btn-1"
+                        onclick="showWheel(); disableButton()">
+                            Decrypt
+                        </button>
+                    </div>
+                    {% endif %}
+                </form>
+                
+                <div style="height: 20px;"></div>
+
+                <a class="btn-2" href="{% url 'index:index' %}">To Home</a>
+                <a class="btn-2" href="{% url 'index:decrypt' %}">Restart/Kill</a>
+
+                <div style="height: 60px;"></div>
+            </div>
+        </div>
+        
+        {% if result %}
+        <!-- Do nothing -->
+        {% else %}
+        <div class="load-text-container">
+            <div class="dual-ring-container">
+                <div class="dual-ring"></div>
+            </div>
+            <div class="load-text"></div>
+        </div>
+        {% endif %}
+
+        {% if result %}
+        <div class="result-container">
+            <a class="result-content">
+                <p class="result-title">The Answer: </p>
+                {{ result }}
+            </a>
+        </div>
+        {% else %}
+        <div class="result-container">
+            <div class="result-content" 
+            style="font-weight:normal;text-align:center;min-height:40px;">
+                Over 250 characters may cause error
+            </div>
+        </div>
+        {% endif %}
+
+        {% if error %}
+        <body onload="error()"></body>
+        {% else %}
+        <!-- Do nothing -->
+        {% endif %}
+    </body>
+</html>
