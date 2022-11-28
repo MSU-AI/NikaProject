@@ -1,0 +1,54 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    animation: transitionIn 1s;
+}
+
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: rotateY(-20deg);
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateY(0);
+    }
+}
+
+.greet-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.greet-content{
+    text-align: center;
+}
+
+.greet-content-font{
+    font-size: 50px;
+    color: rgb(35, 35, 35);
+    font-family: system-ui;
+    font-weight: lighter;
+}
+
+.btn-1{
+    font-size: 38px;
+    font-family: system-ui;
+    font-weight: lighter;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(23, 69, 59);
+    padding: 5px 20px 13px 20px;
+    transition: 200ms;
+}
+
+.btn-1:hover:not(.active){
+    background-color: rgb(35, 112, 95);
+    padding: 5px 20px 13px 20px;
+    transition: 200ms;
+}
